@@ -1,0 +1,72 @@
+h1{
+    color: gold;
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
+hr{
+    border: 2px solid gray;
+}
+p{
+    color: black;
+    text-align: center;
+    text-align:justify ;
+}
+    #banner {
+  display: block;
+}
+
+.images {
+  display: inline;
+  max-width: 10%;
+  margin: 0 2.5%;
+}
+
+img {
+  border-radius: 8px;
+}
+img {
+  max-width: 100%;
+  height: 345px;
+}
+#scroll-container {
+  border: 3px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#scroll-text {
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 20s linear infinite;
+  -webkit-animation: my-animation 20s linear infinite;
+  animation: my-animation 20s linear infinite;
+}
+
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
